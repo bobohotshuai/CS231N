@@ -5,7 +5,7 @@
 3. Evaluate the classifier on new images  
 
 ## K-nearest neighbors
-![K](./lec1-1.png "K")
+![K](./lec1-1 "K")
 
 ### Distance metrix
 ![D](./lec1-2.png "D")
@@ -24,4 +24,5 @@ Example: If the true label is $1$ but the model outputs a probability of $0.2$, 
 The training objective is to **minimize the loss function**.  
 In Gradient Descent, the loss function indicates "which direction to adjust parameters to make predictions closer to true labels".  
 Without a loss function, the model would have no learning objective.
+
 
